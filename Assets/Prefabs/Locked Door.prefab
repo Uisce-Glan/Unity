@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2260663692063198727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7046199981823992662}
+  - component: {fileID: 8083220408816753366}
+  m_Layer: 0
+  m_Name: Locked Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7046199981823992662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2260663692063198727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.73, y: -3.239047, z: 83.696}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3630025475209291344}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8083220408816753366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2260663692063198727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1113472, y: 3.1118422, z: 3.8691483}
+  m_Center: {x: -0.0556736, y: 6.971331, z: 1.1908913}
+--- !u!1001 &3885139260177285563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7046199981823992662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11000061
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4390469
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6240005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 496c8120a28bac947bab70e6df1baa26, type: 2}
+    - target: {fileID: 919132149155446097, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+      propertyPath: m_Name
+      value: Door (Locked)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+--- !u!4 &3630025475209291344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5bc8deba15b22fd43b8d9f10880a0ec8, type: 3}
+  m_PrefabInstance: {fileID: 3885139260177285563}
+  m_PrefabAsset: {fileID: 0}
